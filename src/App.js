@@ -10,7 +10,10 @@ function App() {
     <BrowserRouter>
       <NavBar setMode={setMode} mode={mode}></NavBar>
       <Routes className="fondo">
-        <Route index element={<Paises mode={mode}></Paises>}></Route>
+        <Route
+          path="/apicountries"
+          element={<Paises mode={mode}></Paises>}
+        ></Route>
         <Route
           path={`/name/:countryName`}
           element={<PaisGrande mode={mode}></PaisGrande>}

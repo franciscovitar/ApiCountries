@@ -30,7 +30,7 @@ function PaisGrande({ mode }) {
       <div className="pais-grande-container">
         <div className={`back ${mode ? "dark" : "light"}`}>
           <i class={`bi bi-arrow-90deg-left ${mode ? "dark" : "light"}`}></i>
-          <a className={mode ? "dark" : "light"} href="/">
+          <a className={mode ? "dark" : "light"} href="/apicountries">
             Back
           </a>
         </div>
