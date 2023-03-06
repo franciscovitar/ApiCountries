@@ -11,7 +11,7 @@ function App() {
       <NavBar setMode={setMode} mode={mode}></NavBar>
       <Routes className="fondo">
         <Route
-          path="/apicountries"
+          path="/apicountries/"
           element={<Paises mode={mode}></Paises>}
         ></Route>
         <Route
