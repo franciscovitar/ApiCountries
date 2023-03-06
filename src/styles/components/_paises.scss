@@ -1,0 +1,19 @@
+.paises-container {
+
+
+    &.dark {
+        background-color: $Very-Dark-Blue;
+    }
+
+    &.light {
+        background-color: $Very-Light-Gray;
+    }
+
+    .pais-map {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        gap: 50px;
+    }
+}
